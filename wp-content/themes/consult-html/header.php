@@ -30,7 +30,7 @@
         <div class="nav-wrapper dark-wrapper inverse-text">
             <div class="container flex-it">
                 <div class="navbar-collapse collapse align-left">
-                    <ul class="nav navbar-nav">
+                    <!-- <ul class="nav navbar-nav">
                         <li>
                             <a href="index-01.html">Home</a>
                         </li>
@@ -55,7 +55,10 @@
                             </ul>
                         </li>
                         <li><a href="contact-page.html">Contacts </a></li>
-                    </ul>
+                    </ul> -->
+                    <?php wp_nav_menu( array( 'theme_location' => 'header_menu' , 'menu_class' => 'nav navbar-nav' )  ); ?>
+
+
                 </div>
                 <div class="navbar-other">
                     <div class="align-right text-right">
